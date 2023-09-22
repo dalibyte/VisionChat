@@ -1,5 +1,3 @@
-### install_dependencies.sh
-```bash
 #!/bin/bash
 
 # Update package lists
