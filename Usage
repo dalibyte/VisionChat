@@ -1,0 +1,48 @@
+# Usage Instructions for VisionChat
+
+## 1. Setting Environment Variables
+
+### Mac/Linux
+Use the `export` command in the terminal to set environment variables.
+```sh
+export OPENAI_API_KEY="your_api_key"
+Windows
+Command Prompt
+
+sh
+Copy code
+set OPENAI_API_KEY=your_api_key
+PowerShell
+
+powershell
+Copy code
+$env:OPENAI_API_KEY="your_api_key"
+2. Changing Executable Permissions
+Before running the install_dependencies.sh script on Mac/Linux, you need to ensure it has the correct permissions to execute.
+
+sh
+Copy code
+chmod +x install_dependencies.sh
+3. Installing Dependencies
+Run the installation script to set up the necessary dependencies.
+
+With sudo (Mac/Linux)
+sh
+Copy code
+sudo ./install_dependencies.sh
+4. Running the Python Script
+Once the environment variable is set and the dependencies are installed, navigate to the directory containing your Python script (visionchat.py) in your terminal or command prompt.
+
+Run the script using the following command:
+
+sh
+Copy code
+python3 visionchat.py
+On Windows, you might use python instead of python3 if that's the command configured for Python 3.
+
+After running the command, follow the interactive prompts to input the image path and output file name. The script will perform OCR, extract questions, get answers from GPT-3, and write the results to the specified output file.
+
+css
+Copy code
+
+This markdown file provides a structured way to guide users on setting up and running the VisionChat script, ensuring all necessary steps are clearly communicated.
