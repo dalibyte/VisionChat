@@ -36,5 +36,14 @@ This project utilizes Tesseract for OCR. Please ensure that Tesseract is install
 
 You need to have an OpenAI API key and set it as an environment variable before running the script.
 
+#### MacOS/Linux
 ```sh
 export OPENAI_API_KEY="your_api_key"
+
+#### Windows
+```sh
+set OPENAI_API_KEY="your_api_key"
+
+####Powershell
+```sh
+$env:OPENAI_API_KEY="your_api_key"
