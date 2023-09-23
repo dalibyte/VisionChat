@@ -1,9 +1,9 @@
 # VisionChat
-📸🤖 Image to Text QA: Extract questions from any image and get instant answers using ChatGPT. Unleash the power of OCR and AI on your images and get things done faster! 🌟💬
+📸🤖 Image to Text QA: Extract questions from any image and get instant answers using VisionChat. Unleash the power of OCR and AI on your images and get things done faster! 🌟💬
 
 # Image to Text Question Answering
 
-This project uses OCR (Optical Character Recognition) to extract text from images, identifies any questions in the text, and fetches the answers using the OpenAI GPT model.
+This project uses OCR (Optical Character Recognition) to extract text from images, identify any questions in the text, and fetch the answers using the OpenAI GPT model.
 
 ## Prerequisites
 
@@ -13,20 +13,11 @@ This project uses OCR (Optical Character Recognition) to extract text from image
 
 ### Libraries Used
 
-- OpenCV (cv2)
-- pytesseract
-- NLTK
-- openai
-- regex (re)
-- os
-
-### Licenses
-
-- OpenCV: BSD license
-- pytesseract: Apache License 2.0
-- NLTK: Apache License 2.0
-- openai: MIT License
-- regex: Python Software Foundation License
+- OpenCV (BSD license)
+- pytesseract (Apache License 2.0)
+- NLTK (Apache License 2.0)
+- openai (MIT License)
+- regex (Python Software Foundation License)
 
 ### Tesseract
 
