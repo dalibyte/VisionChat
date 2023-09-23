@@ -22,7 +22,7 @@ chmod +x requirements.sh
 sudo ./requirements.sh
 ```
 
-## Environmental Variables
+## Environment Variables
 This project utilizes environment variables to securely handle sensitive information such as API keys. Specifically, OPENAI_API_KEY is used to store the API key required to interact with OpenAI's services.
 
 **Linux/MacOS:**
@@ -35,3 +35,7 @@ This project utilizes environment variables to securely handle sensitive informa
 `$env:OPENAI_API_KEY="your_api_key"`
 
 ## Running the Script
+In order to run the VisionChat Python script make sure you have your path to the Tesseract executable along with the picture of the questions that you would like to have answered in the same directory. Then when running the script make sure you insert the variables when they are asked to be provided. The python script is:
+```sh
+python3 visionchat.py
+```
