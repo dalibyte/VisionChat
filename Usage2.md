@@ -13,7 +13,7 @@ Welcome to VisionChat! This guide will help you set up and run the VisionChat sc
 Before you start, make sure you have the following:
 - Python installed on your system.
 - An OpenAI API Key. You can get it by signing up at [OpenAI](https://beta.openai.com/signup/).
-- Tesseract OCR installed. You can download it from [here]([https://github.com/tesseract-ocr/tesseract/wiki](https://github.com/tesseract-ocr/tessdoc)).
+- Tesseract OCR installed. You can download it from [here](https://github.com/tesseract-ocr/tesseract).
 
 ## Installation
 Install the necessary libraries and dependencies by navigating to the project's root directory in your terminal and running:
