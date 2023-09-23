@@ -19,5 +19,5 @@ Before running VisionChat, you need to install the necessary dependencies. In th
 
 Open your terminal, navigate to the project directory, and run the following command to make the script executable and install the dependencies:
 ```sh
-chmod +x install_dependencies.sh
-sudo ./install_dependencies.sh
+chmod +x requirements.sh
+sudo ./requirements.sh
