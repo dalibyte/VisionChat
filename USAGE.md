@@ -5,7 +5,7 @@ Welcome to VisionChat! This guide will help you set up and run the VisionChat sc
 ## Table of Contents
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
-- [Setting Up Environment Variables](#setting-up-environment-variables)
+- [Environment Variables](#environment-variables)
 - [Running the Script](#running-the-script)
 
 ## Prerequisites
@@ -20,3 +20,18 @@ Open your terminal, navigate to the project directory, and run the following com
 ```sh
 chmod +x requirements.sh
 sudo ./requirements.sh
+```
+
+## Environmental Variables
+This project utilizes environment variables to securely handle sensitive information such as API keys. Specifically, OPENAI_API_KEY is used to store the API key required to interact with OpenAI's services.
+
+**Linux/MacOS:**
+`export OPENAI_API_KEY="your_api_key"`
+
+**Windows:**
+`set OPENAI_API_KEY="your_api_key"`
+
+**PowerShell:**
+`$env:OPENAI_API_KEY="your_api_key"`
+
+## Running the Script
