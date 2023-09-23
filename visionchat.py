@@ -56,7 +56,7 @@ def process_image_and_get_answers(image_path, output_file):
         for q, a in zip(questions, answers):
             f.write(f"Question: {q}\nAnswer: {a}\n\n")
 
-# Example usage
+# User I/O
 image_path = input("Enter the path to your image file: ")
 output_file = input("Enter the name/path of the output file (e.g., answers.txt): ")
 process_image_and_get_answers(image_path, output_file)
