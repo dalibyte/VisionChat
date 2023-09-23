@@ -10,12 +10,13 @@ Welcome to VisionChat! This guide will help you set up and run the VisionChat sc
 - [Running the Script](#running-the-script)
 
 ## Prerequisites
-- Ensure you have Python installed on your system.
-- An OpenAI API Key is required.
-- Tesseract OCR should be installed.
-
+Before you start, make sure you have the following:
+- Python installed on your system.
+- An OpenAI API Key. You can get it by signing up at [OpenAI](https://beta.openai.com/signup/).
+- Tesseract OCR installed. You can download it from [here](https://github.com/tesseract-ocr/tessdoc).
+- 
 ## Installation
-Before running VisionChat, you need to install the necessary dependencies. In the project's root directory, you'll find a script named `install_dependencies.sh` that will do this for you.
+Before running VisionChat, you need to install the necessary dependencies. In the project's root directory, you'll find a script named `requirements.sh` that will do this for you.
 
 Open your terminal, navigate to the project directory, and run the following command to make the script executable and install the dependencies:
 ```sh
