@@ -39,10 +39,10 @@ You need to have an OpenAI API key and set it as an environment variable before 
 #### Commands
 
 **Linux/MacOS:**
-'export OPENAI_API_KEY="your_api_key"'
+`export OPENAI_API_KEY="your_api_key"`
 
 **Windows:**
-'set OPENAI_API_KEY="your_api_key"'
+`set OPENAI_API_KEY="your_api_key"`
 
 **PowerShell:**
-'$env:OPENAI_API_KEY="your_api_key"'
+`$env:OPENAI_API_KEY="your_api_key"`
