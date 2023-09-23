@@ -16,8 +16,9 @@ import os
 import openai
 from nltk.tokenize import sent_tokenize
 
-# Configure Tesseract path
-pytesseract.pytesseract.tesseract_cmd = r'/opt/homebrew/bin/tesseract'
+# Configure Tesseract path through User input
+directory = input("Input the directory to the tesseract executable (e.g., /opt/homebrew/bin/tesseract): ")
+pytesseract.pytesseract.tesseract_cmd = directory
 
 # Initialize OpenAI API
 openai.api_key = os.getenv("OPENAI_API_KEY")
