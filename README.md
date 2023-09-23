@@ -9,7 +9,7 @@ This project uses OCR (Optical Character Recognition) to extract text from image
 
 - Python
 - OpenAI API Key
-- Tesseract
+- Tesseract OCR
 
 ### Libraries Used
 
@@ -21,7 +21,7 @@ This project uses OCR (Optical Character Recognition) to extract text from image
 
 ### Tesseract
 
-This project utilizes Tesseract for OCR. Please ensure that Tesseract is installed and the path to the Tesseract binary is correctly specified in the script.
+This project utilizes Tesseract for OCR. Please ensure that the Tesseract executable is installed and the path is correctly defined.
 
 ### OpenAI API Key
 
