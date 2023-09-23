@@ -40,10 +40,8 @@ You need to have an OpenAI API key and set it as an environment variable before 
 ```sh
 export OPENAI_API_KEY="your_api_key"
 
-#### Windows
-```sh
+Windows
 set OPENAI_API_KEY="your_api_key"
 
-####Powershell
-```sh
+Powershell
 $env:OPENAI_API_KEY="your_api_key"
