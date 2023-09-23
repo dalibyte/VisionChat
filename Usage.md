@@ -6,7 +6,6 @@ Welcome to VisionChat! This guide will help you set up and run the VisionChat sc
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Setting Up Environment Variables](#setting-up-environment-variables)
-- [Setting Executable Permissions](#setting-executable-permissions)
 - [Running the Script](#running-the-script)
 
 ## Prerequisites
