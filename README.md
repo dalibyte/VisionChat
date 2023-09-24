@@ -3,7 +3,7 @@
 
 # Image to Text Question Answering
 
-This project uses OCR (Optical Character Recognition) to extract text from images, identify any questions in the text, and fetch the answers using the OpenAI GPT model which then gets saved in a file. Below is 5 example questions to demonstrate the versatility of the questions allowed:
+This project uses OCR (Optical Character Recognition) to extract text from images, identify any questions in the text, and fetch the answers using the OpenAI GPT model which then gets saved in a file. Below are 5 example questions to demonstrate the format of the Q&A:
 
 <img src="https://i.ibb.co/q95K8mP/questions-photo.png" width="300" height="300"> <img src="https://i.ibb.co/X4ctFqg/Answers.png" width="500" height="300">
 
