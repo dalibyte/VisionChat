@@ -5,6 +5,8 @@
 
 This project uses OCR (Optical Character Recognition) to extract text from images, identify any questions in the text, and fetch the answers using the OpenAI GPT model which then gets saved in a file.
 
+![Image](https://ibb.co/tcXg6YW)
+
 ## Prerequisites
 
 - Python
@@ -26,14 +28,3 @@ This project utilizes Tesseract for OCR. Please ensure that the Tesseract execut
 ### OpenAI API Key
 
 You need to have an OpenAI API key and set it as an environment variable before running the script.
-
-#### Commands
-
-**Linux/MacOS:**
-`export OPENAI_API_KEY="your_api_key"`
-
-**Windows:**
-`set OPENAI_API_KEY="your_api_key"`
-
-**PowerShell:**
-`$env:OPENAI_API_KEY="your_api_key"`
