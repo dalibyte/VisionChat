@@ -5,7 +5,7 @@
 
 This project uses OCR (Optical Character Recognition) to extract text from images, identify any questions in the text, and fetch the answers using the OpenAI GPT model which then gets saved in a file.
 
-![Image](https://ibb.co/tcXg6YW)
+![Image]([https://ibb.co/tcXg6YW](https://i.ibb.co/q95K8mP/questions-photo.png))
 
 ## Prerequisites
 
