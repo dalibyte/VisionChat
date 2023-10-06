@@ -31,7 +31,7 @@ def ocr_image_to_text(image_path):
 
 def extract_questions(text):
     sentences = sent_tokenize(text)
-    questions = [sent for sent in sentences if re.match(r'(?i)\b(who|once|after|make|define|describe|what|when|which|write|from|where|why|how|is|are|was|were|do|does|can|re-write|name|did)\b', sent) and sent.endswith('?')]
+    questions = [sent for sent in sentences if re.match(r'(?i)\b(who|once|after|make|define|describe|what|when|which|write|from|where|why|how|is|are|was|were|do|does|can|re-write|state|name|did)\b', sent) and sent.endswith('?')]
     return questions
 
 def get_answers_from_gpt(questions):
